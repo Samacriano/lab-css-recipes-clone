@@ -1,19 +1,20 @@
 * {
-    margin: 0;
-    padding: 0;
+    
+    
+
 }
 
 html,
 body {
     background-color: #fff;
     color: #000000;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 header {
-    background-image: url(images/apple-pie.jpg);
+    background-image: url(//starter-code/apple-pie-starter-code/images/apple-pie.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -26,22 +27,23 @@ h1 {
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
+    
     margin-bottom: 30px;
 }
 
-section {
+div {
     height: 500px;
+    border-bottom: 2px solid #666666;
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
 } 
 
 p {
-    display: flex;  
-    justify-content: center;
+    margin-bottom: 30px;
+    width: 750px;
 }
 
 img {
-    display: flex;
-    justify-content: center;
-    height: 100px;
+    width: 400px;
 }
